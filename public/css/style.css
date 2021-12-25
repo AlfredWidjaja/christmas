@@ -1,0 +1,90 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding-top: 4rem;
+    background: url("../img/bg.jpg");
+}
+
+.content {
+    margin-top: 0;
+    background-size: cover;
+}
+
+.title {
+    background: rgba(29, 21, 21, 0.8);
+    margin: 0 3%;
+    padding: 5% 0 1%;
+    border-radius: 1rem;
+}
+
+.bottom-title {
+    margin-bottom: 3rem;
+}
+
+@keyframes ginger {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(75deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: #A6D8DF;
+    }
+    50% {
+        color: aqua;
+    }
+    100% {
+        color: #A6D8DF;
+    }
+}
+
+h1 {
+    color: #C54245;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(97, 97, 219);
+}
+
+.snowflakes {
+    color: #A6D8DF;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.ginger-img {
+    padding: 2% 0;
+}
+
+.img-ani {
+    width: 30rem;
+    transform: rotate(0deg);
+    animation-name: ginger;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    .img-ani {
+        width: 70%;
+    }
+}
