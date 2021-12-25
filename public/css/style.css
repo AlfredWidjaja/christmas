@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0;
     padding-top: 4rem;
-    background: url("../img/bg.jpg");
+    background-image: url("../img/bg.jpg");
 }
 
 .content {
@@ -67,6 +67,19 @@ h3 {
 
 .ginger-img {
     padding: 2% 0;
+}
+
+.name {
+    padding: 0 0 2rem;
+}
+
+.name-list {
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.1rem;
+    font-size: 1.2rem;
+    background: rgba(134, 219, 240, 0.7);
+    border-radius: 8px;
 }
 
 .img-ani {
